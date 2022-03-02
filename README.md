@@ -1,5 +1,5 @@
 # pyqt-custom-titlebar-setter
-PyQt Custom Titlebar Setter
+PyQt Custom Titlebar(<a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>) Setter.
 
 ## Requirements
 * PyQt5 >= 5.15
