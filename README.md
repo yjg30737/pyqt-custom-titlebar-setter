@@ -6,3 +6,6 @@ PyQt Custom Titlebar Setter
 
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-custom-titlebar-setter.git --upgrade```
+
+## Included Packages
+* <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
