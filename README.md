@@ -9,3 +9,6 @@ PyQt Custom Titlebar Setter
 
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
+
+## Usage
+* ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str) -> CustomTitlebarWindow``` - Icon file should be svg file.
