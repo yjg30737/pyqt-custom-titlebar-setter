@@ -14,7 +14,7 @@ PyQt Custom Titlebar(<a href="https://github.com/yjg30737/pyqt-custom-titlebar-w
 * ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str) -> CustomTitlebarWindow``` - Icon file should be svg file.
 
 ## Example
-### <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">pyqt-dark-notepad</a> - ```DarkNotepadApp``` class
+### 1. <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">pyqt-dark-notepad</a> - ```DarkNotepadApp``` class
 Code Sample
 ```python
 from PyQt5.QtWidgets import QApplication
@@ -38,7 +38,7 @@ Result
 
 ![image](https://user-images.githubusercontent.com/55078043/156855872-1f247914-0a51-4bf1-a28c-908c83ffeccd.png)
 
-### <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">pyqt-dark-calculator</a> - ```CalculatorApp``` class
+### 2. <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">pyqt-dark-calculator</a> - ```CalculatorApp``` class
 Code Sample
 ```python
 from PyQt5.QtWidgets import QApplication, QAbstractButton
@@ -62,7 +62,7 @@ Result
 
 ![image](https://user-images.githubusercontent.com/55078043/156855894-b2565bbf-8e80-440b-bb47-182ba3a61f1c.png)
 
-### <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> - ```ComicBookViewerApp``` class
+### 3. <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> - ```ComicBookViewerApp``` class
 Code Sample
 ```python
 from PyQt5.QtWidgets import QApplication
