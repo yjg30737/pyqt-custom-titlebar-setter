@@ -1,5 +1,3 @@
-import os, inspect, sys
-
 from PyQt5.QtWidgets import QWidget
 from pyqt_custom_titlebar_window import CustomTitlebarWindow
 
