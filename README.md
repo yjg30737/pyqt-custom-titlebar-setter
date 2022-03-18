@@ -11,8 +11,7 @@ PyQt Custom Titlebar(<a href="https://github.com/yjg30737/pyqt-custom-titlebar-w
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
 
 ## Usage
-* ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str, style='windows',
-                          hint=Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint) -> CustomTitlebarWindow``` - ```icon_filename``` should be svg file.
+* ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str, style='windows', hint=Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint) -> CustomTitlebarWindow``` - ```icon_filename``` should be svg file.
 
 ## Example
 ### 1. <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">pyqt-dark-notepad</a> - ```DarkNotepadApp``` class
