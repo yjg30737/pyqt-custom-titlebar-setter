@@ -6,7 +6,7 @@ from pyqt_custom_titlebar_window import CustomTitlebarWindow
 class CustomTitlebarSetter:
     @staticmethod
     def getCustomTitleBar(main_window: QWidget, icon_filename: str = '', style='windows',
-                          hint=Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint) -> CustomTitlebarWindow:
+                          hint=['min', 'max', 'close']) -> CustomTitlebarWindow:
         titleBarWindow = CustomTitlebarWindow(main_window)
         titleBarWindow.setTopTitleBar(icon_filename=icon_filename)
         titleBarWindow.setButtonStyle(style)
