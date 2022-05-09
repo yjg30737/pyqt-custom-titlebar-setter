@@ -1,6 +1,18 @@
 # pyqt-custom-titlebar-setter
 PyQt custom titlebar setter.
 
+This is movable/resizable. 
+
+When resizing, cursor shape will be automatically changed depends on the direction of edge.
+
+For example, you want to resize the window horizontally, cursor shape will be changed like "↔".
+
+You can set the title, and icon which should be SVG type.
+
+You can set the min/max/close buttons separately.
+
+This package supports full-screen. If your app has full screen, this custom titlebar can perfectly deal with it. So there's no need to do another chore for full-screen.
+
 ## Requirements
 * PyQt5 >= 5.15
 
@@ -11,7 +23,7 @@ PyQt custom titlebar setter.
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
 
 ## Usage
-* ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow``` - ```icon_filename``` should be svg file.
+* `CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow` - `main_window` is your widget. `icon_filename` should be svg file.
 
 ## Example
 ※ All examples are using <a href="https://github.com/yjg30737/pyqt-style-setter.git">pyqt-style-setter</a> to set dark theme. Of course, you don't have to use this.
@@ -30,7 +42,7 @@ class DarkNotepadApp(QApplication):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         mainWindow = DarkNotepad()
-        StyleSetter.setWindowStyle(mainWindow)
+        StyleSetter.setWindowStyle(mainWindow) # you don't need this. this is just for adding style.
         self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBar(mainWindow, icon_filename='ico/dark-notepad.svg')
         self.__titleBarWindow.show()
 ```
