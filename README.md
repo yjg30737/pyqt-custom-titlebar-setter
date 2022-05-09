@@ -14,7 +14,7 @@ PyQt Custom Titlebar(<a href="https://github.com/yjg30737/pyqt-custom-titlebar-w
 * ```CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow``` - ```icon_filename``` should be svg file.
 
 ## Example
-※ All examples are using <a href="https://github.com/yjg30737/pyqt-style-setter.git">pyqt-style-setter</a> to set dark theme.
+※ All examples are using <a href="https://github.com/yjg30737/pyqt-style-setter.git">pyqt-style-setter</a> to set dark theme. Of course, you don't have to use this.
 ### 1. <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">pyqt-dark-notepad</a> - ```DarkNotepadApp``` class
 Code Sample
 ```python
