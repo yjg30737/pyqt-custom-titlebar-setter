@@ -29,6 +29,7 @@ This package supports full-screen. If your app has full screen, this custom titl
 ※ All examples are using <a href="https://github.com/yjg30737/pyqt-style-setter.git">pyqt-style-setter</a> to set dark theme. Of course, you don't have to use this.
 ### 1. <a href="https://github.com/yjg30737/pyqt-dark-notepad.git">pyqt-dark-notepad</a> - `DarkNotepadApp` class
 Code Sample
+
 ```python
 from PyQt5.QtWidgets import QApplication
 from pyqt_dark_gray_theme.darkGrayTheme import *
@@ -42,8 +43,9 @@ class DarkNotepadApp(QApplication):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         mainWindow = DarkNotepad()
-        StyleSetter.setWindowStyle(mainWindow) # you don't need this. this is just for adding style.
-        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBar(mainWindow, icon_filename='ico/dark-notepad.svg')
+        StyleSetter.setWindowStyle(mainWindow)  # you don't need this. this is just for adding style.
+        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBarWindow(mainWindow,
+                                                                             icon_filename='ico/dark-notepad.svg')
         self.__titleBarWindow.show()
 ```
 
@@ -53,6 +55,7 @@ Result
 
 ### 2. <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">pyqt-dark-calculator</a> - `CalculatorApp` class
 Code Sample
+
 ```python
 from PyQt5.QtWidgets import QApplication, QAbstractButton
 from pyqt_dark_gray_theme.darkGrayTheme import *
@@ -67,7 +70,8 @@ class CalculatorApp(QApplication):
         super().__init__(*args, **kwargs)
         mainWindow = Calculator()
         StyleSetter.setWindowStyle(mainWindow, exclude_type_lst=[QAbstractButton])
-        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBar(mainWindow, icon_filename='ico/calculator.svg')
+        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBarWindow(mainWindow,
+                                                                             icon_filename='ico/calculator.svg')
         self.__titleBarWindow.show()
 ```
 
@@ -77,6 +81,7 @@ Result
 
 ### 3. <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> - `ComicBookViewerApp` class
 Code Sample
+
 ```python
 from PyQt5.QtWidgets import QApplication
 from pyqt_dark_gray_theme.darkGrayTheme import *
@@ -91,7 +96,7 @@ class ComicBookViewerApp(QApplication):
         super().__init__(*args, **kwargs)
         mainWindow = ComicBookViewer()
         StyleSetter.setWindowStyle(mainWindow)
-        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBar(mainWindow, icon_filename='ico/book.svg')
+        self.__titleBarWindow = CustomTitlebarSetter.getCustomTitleBarWindow(mainWindow, icon_filename='ico/book.svg')
         self.__titleBarWindow.show()
 ```
 
