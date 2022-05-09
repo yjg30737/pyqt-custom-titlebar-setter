@@ -5,7 +5,7 @@ This is movable/resizable.
 
 When resizing, cursor shape will be automatically changed depends on the direction of edge.
 
-For example, you want to resize the window horizontally, cursor shape will be changed like "<->".
+For example, you want to resize the window horizontally, cursor shape will be changed like "⇿".
 
 You can set the title, and icon which should be SVG type.
 
