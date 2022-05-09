@@ -3,7 +3,7 @@ PyQt custom titlebar setter.
 
 This is movable/resizable. 
 
-When resizing, cursor shape will be automatically changed depends on the direction of edge.
+When resizing, cursor shape will be automatically changed depends on the direction of edge where the cursor is hovering over.
 
 For example, you want to resize the window horizontally, cursor shape will be changed like "⇿".
 
