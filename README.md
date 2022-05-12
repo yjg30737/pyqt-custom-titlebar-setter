@@ -17,7 +17,7 @@ This package supports full-screen. If your app has full screen, this custom titl
 * PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15.
 
 ## Setup
-`pip3 install git+https://github.com/yjg30737/pyqt-custom-titlebar-setter.git --upgrade`
+`python -m pip install pyqt-custom-titlebar-setter`
 
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
