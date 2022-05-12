@@ -14,7 +14,7 @@ You can set the min/max/close buttons separately.
 This package supports full-screen. If your app has full screen, this custom titlebar can perfectly deal with it. So there's no need to do another chore for full-screen.
 
 ## Requirements
-* PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15. Sorry for the high requirements.
+* PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15.
 
 ## Setup
 `pip3 install git+https://github.com/yjg30737/pyqt-custom-titlebar-setter.git --upgrade`
@@ -23,7 +23,7 @@ This package supports full-screen. If your app has full screen, this custom titl
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
 
 ## Usage
-* `CustomTitlebarSetter.getCustomTitleBar(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow` - `main_window` is your widget. `icon_filename` should be svg file.
+* `CustomTitlebarSetter.getCustomTitleBarWindow(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow` - `main_window` is your widget. `icon_filename` should be svg file.
 
 ## Example
 ### 1. Very basic text editor
