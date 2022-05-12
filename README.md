@@ -14,7 +14,7 @@ You can set the min/max/close buttons separately.
 This package supports full-screen. If your app has full screen, this custom titlebar can perfectly deal with it. So there's no need to do another chore for full-screen.
 
 ## Requirements
-* PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15. Sorry for the high requirements.
+* PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15.
 
 ## Setup
 `pip3 install git+https://github.com/yjg30737/pyqt-custom-titlebar-setter.git --upgrade`
