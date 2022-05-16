@@ -23,7 +23,7 @@ This package supports full-screen. If your app has full screen, this custom titl
 * <a href="https://github.com/yjg30737/pyqt-custom-titlebar-window.git">pyqt-custom-titlebar-window</a>
 
 ## Usage
-* `CustomTitlebarSetter.getCustomTitleBarWindow(main_window: QWidget, icon_filename: str = '', style='windows', hint=['min', 'max', 'close']) -> CustomTitlebarWindow` - `main_window` is your widget. `icon_filename` should be svg file.
+* `CustomTitlebarSetter.getCustomTitleBarWindow(main_window: QWidget, icon_filename: str = '', hint=['min', 'max', 'close']) -> CustomTitlebarWindow` - `main_window` is your widget. `icon_filename` should be svg file.
 
 ## Example
 ### 1. Very basic text editor
