@@ -1,13 +1,16 @@
 from PyQt5.QtWidgets import QWidget
+from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt
 from pyqt_custom_titlebar_window import CustomTitlebarWindow
 
 
 class CustomTitlebarSetter:
     @staticmethod
-    def getCustomTitleBarWindow(main_window: QWidget, icon_filename: str = '',
-                                hint: list = ['min', 'max', 'close']) -> CustomTitlebarWindow:
+    def getCustomTitleBarWindow(main_window: QWidget, title: str = '', icon_filename: str = '',
+                                font: QFont = QFont('Arial', 12), hint: list = ['min', 'max', 'close'],
+                                align=Qt.AlignCenter, bottom_separator: bool = False) -> CustomTitlebarWindow:
         titleBarWindow = CustomTitlebarWindow(main_window)
-        titleBarWindow.setTopTitleBar(icon_filename=icon_filename)
+        titleBarWindow.setTopTitleBar(title=title, icon_filename=icon_filename, font=font, align=align, bottom_separator=bottom_separator)
         titleBarWindow.setButtonHint(hint)
         titleBarWindow.setButtons()
         return titleBarWindow
