@@ -29,7 +29,7 @@ This package supports full-screen. If your app has full screen, this custom titl
     * `main_window` is your widget.
     * `title` is windows title. If you set this by default (empty string), title is based of the title you set with <a href="https://doc.qt.io/qt-5/qwidget.html#windowTitle-prop">`setWindowTitle`</a>.
     * `icon_filename` is title bar's icon. Icon file should be svg file. If it is not set, then there is no icon.
-    * `font` is font of the title.
+    * `font` is font of the title. Font size should be at least 14. 
     * `hint` is hint of the button on the title bar. For example, if you give the value such as ['min', 'close'], the title bar buttons will contain minimize and close buttons only.
     * `align` is alignment of the title. You can give Qt.AlignLeft, Qt.AlignCenter, Qt.AlignRight. Some of these are not recommended depending on the title bar button's position.
     * `bottom_separator` decides whether you want to put the separator(horizontal line) at the bottom of the title bar. If it is set to True, line will be shown between title bar and main widget.
