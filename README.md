@@ -13,6 +13,10 @@ You can set the min/max/close buttons separately.
 
 This package supports full-screen. If your app has full screen, this custom titlebar can perfectly deal with it. So there's no need to do another chore for full-screen.
 
+This also makes the application's font look better by setting the font family to 'Arial'(which looks modern and commonly used), antialiasing.
+
+The range of font size is set to 12~30 which is not too big, not too small.
+
 ## Requirements
 * PyQt5 >= 5.15 - This package is using <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemMove">startSystemMove</a>, <a href="https://doc.qt.io/qt-5/qwindow.html#startSystemResize">startSystemResize</a> which were both introduced in Qt 5.15.
 
