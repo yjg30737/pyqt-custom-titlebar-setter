@@ -24,7 +24,7 @@ This package supports full-screen. If your app has full screen, this custom titl
 
 ## Usage
 * `CustomTitlebarSetter.getCustomTitleBarWindow(main_window: QWidget, title: str = '', icon_filename: str = '',
-                                font: QFont = QFont('Arial', 12), hint: list = ['min', 'max', 'close'],
+                                font: QFont = QFont('Arial', 14), hint: list = ['min', 'max', 'close'],
                                 align=Qt.AlignCenter, bottom_separator: bool = False) -> CustomTitlebarWindow`
     * `main_window` is your widget.
     * `title` is windows title. If you set this by default (empty string), title is based of the title you set with <a href="https://doc.qt.io/qt-5/qwidget.html#windowTitle-prop">`setWindowTitle`</a>.
