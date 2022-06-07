@@ -117,7 +117,7 @@ class DarkNotepadApp(QApplication):
 
 Result
 
-![image](https://user-images.githubusercontent.com/55078043/156855872-1f247914-0a51-4bf1-a28c-908c83ffeccd.png)
+![image](https://user-images.githubusercontent.com/55078043/172275943-d69d9427-8972-47a2-a4db-54d3e884d105.png)
 
 ### 3. <a href="https://github.com/yjg30737/pyqt-dark-calculator.git">pyqt-dark-calculator</a> - `CalculatorApp` class
 Code Sample
