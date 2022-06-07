@@ -143,7 +143,7 @@ class CalculatorApp(QApplication):
 
 Result
 
-![image](https://user-images.githubusercontent.com/55078043/156855894-b2565bbf-8e80-440b-bb47-182ba3a61f1c.png)
+![image](https://user-images.githubusercontent.com/55078043/172276222-6c5ffac6-da6c-4946-97a9-12cc0f1bf058.png)
 
 ### 4. <a href="https://github.com/yjg30737/pyqt-comic-viewer.git">pyqt-comic-viewer</a> - `ComicBookViewerApp` class
 Code Sample
@@ -168,4 +168,4 @@ class ComicBookViewerApp(QApplication):
 
 Result
 
-![image](https://user-images.githubusercontent.com/55078043/156855909-7bd2d5a6-f741-4b9a-85eb-6509fe9e6c68.png)
+![image](https://user-images.githubusercontent.com/55078043/172276340-f390dc34-6bdf-4547-a70e-fca161d11e83.png)
