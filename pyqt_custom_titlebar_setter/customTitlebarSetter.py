@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
-from pyqt_custom_titlebar_window import CustomTitlebarWindow
+from pyqt_custom_titlebar_window.customTitlebarWindow import CustomTitlebarWindow
 
 
 class CustomTitlebarSetter:
