@@ -1,1 +1,1 @@
-pyqt-custom-titlebar-window>=0.0.1
+git+https://github.com/yjg30737/pyqt-custom-titlebar-window@Dev#egg=pyqt-custom-titlebar-window
