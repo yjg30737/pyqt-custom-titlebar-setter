@@ -47,6 +47,12 @@ CustomTitlebarSetter.getCustomTitleBarWindow(main_window: QWidget,
 * `bottom_separator` decides whether you want to put the separator(horizontal line) at the bottom of the title bar. If it is set to True, line will be shown between title bar and main widget.
 
 ## Example
+### 0. Simple way for people who clone this package
+
+`test.py` is included in package just for people who cloned this for testing.
+
+`python test.py`
+
 ### 1. Very basic text editor
 Code Sample
 
